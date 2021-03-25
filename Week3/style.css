@@ -1,0 +1,13 @@
+body{
+   background-color: beige;
+}
+
+table{
+   border: solid 10px black;
+   height: 400px;
+   width: 700px;
+}
+
+td, th{
+   border:solid 5px red;
+}
