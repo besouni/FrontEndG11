@@ -1,0 +1,75 @@
+header, main, footer {
+   border: solid 1px silver;
+   width: 70%;
+   margin: 20px auto;
+}
+header{
+   height: 100px;
+   background-color: aqua;
+}
+
+main{
+   min-height: 400px;
+   background-color: aquamarine;
+}
+
+footer {
+   height: 50px;
+   background-color: beige;
+}
+
+nav{
+   min-height: 100px;
+   width: 20%;
+   background-color: blueviolet;
+   padding-bottom: 50px;
+   float: left;
+}
+
+nav ul{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+nav ul a {
+   text-decoration: none;
+   background-color: bisque;
+   display: block;
+   padding: 10px;
+   border-bottom: solid 1px sienna;
+}
+
+nav ul a:hover{
+   background-color: cadetblue;
+}
+
+.content{
+   width: 80%;
+   background-color: antiquewhite;
+   min-height: 400px;
+   float: left;
+}
+
+.section1{
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+
+.section1 div{
+   width:33.3%;
+   float: left;
+   height: 100px;
+   background-color: brown;
+   border: solid 2px yellowgreen;
+   box-sizing: border-box;
+}
+
+.section2 div{
+   width:50%;
+   float: left;
+   height: 100px;
+   background-color: brown;
+   border: solid 2px yellowgreen;
+   box-sizing: border-box;
+}
