@@ -1,0 +1,26 @@
+body{
+   margin-left: 200px;
+}
+
+.header{
+   width: 70%;
+   height: 100px;
+   border: solid 2px green;
+   margin-bottom: 10px;
+}
+
+.header1{
+   border: solid 5px gray;
+}
+
+.p1{
+   border: solid 1px blue;
+   height: 30px;
+   background-color: bisque;
+}
+
+.p4{
+   border: solid 5px green;
+   height: 100px;
+   background-color: royalblue;
+}
