@@ -1,0 +1,37 @@
+div, img, form{
+   width: 500px;
+   min-height: 150px;
+   border: solid 2px gray;
+   margin: 20px auto; 
+}
+
+div{
+   background-color: aqua;
+}
+
+form {
+    background-color: bisque;
+}
+
+.game{
+   width: 800px;
+   min-height: 350px;
+   background-color: antiquewhite;
+   position: relative;
+}
+
+.controls{
+   height: 50px;
+}
+
+.box{
+   width: 50px;
+   min-height: 50px;
+   border-radius: 50%;
+   border: solid 2px green;
+   background-color: yellowgreen;
+   box-sizing: border-box;
+   margin: 0;
+   cursor: crosshair;
+   position: absolute;
+}
